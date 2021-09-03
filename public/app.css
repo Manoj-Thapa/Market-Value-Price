@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #191D28;
+	color: #FFFFFF;
+	font-family: Helvetica Neue, sans-serif;
+}
+
+.site {
+	color: #6CCACB;
+}
+
+.btn-bg {
+	background-color: #2E3241;
+	border: 1px solid #2E3241;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.txt-one {
+	color: #9e9a9a;
+}
+
+.txt-second {
+	color: #6CCACB;
+}
+
+.tele-btn {
+	border: 2px solid #6CCACB;
+}
+
+.circle {
+	border: 3px solid #6CCACB;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.number {
+	color: #6CCACB;
+	font-weight: bold;
+	padding: 4px 9px;
+}
+
+.logo-button {
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.logo-button button {
+	background-color: #6CCACB;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+.link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.link:hover {
+	color: #ffffff;
+}
+
+.btn-txt {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+i {
+	color: #ffffff;
+}
+
+.fab {
+	margin-right: 5px;
+}
+
+
+/* Toggle Button */
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	margin-top: 10px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: #6CCACB;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #2e3241;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2e3241;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+
+/* Table */
+
+.table-wrap {
+	overflow-x: auto;
+}
+
+.table {
+	min-width: 1000px !important;
+	border-collapse: separate;
+	border-spacing: 0 15px;
+	width: 100%;
+	color: #ffffff;
+}
+
+.table thead th {
+	border: none;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #9e9a9a;
+}
+
+.table-data {
+	background-color: #2E3241;
+	font-weight: bold;
+}
+
+.table tbody th,
+.table tbody td {
+	border: none;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+
+tbody tr th:first-child {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+tbody tr td:last-child {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
