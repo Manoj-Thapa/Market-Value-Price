@@ -5,7 +5,7 @@ import path from 'path';
 const __dirname = path.resolve();
 import { Market } from './Models/market.js';
 
-mongoose.connect('mongodb://localhost:27017/MarketValue', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://manojthapaa:xadKf1Ow53CWrSbh@cluster0.oevsq1l.mongodb.net/test', {useNewUrlParser: true, useUnifiedTopology: true})
 	.then(() => {
 		console.log('MarketValue Database Connected Successfully');
 	})
